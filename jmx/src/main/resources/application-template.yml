@@ -1,0 +1,11 @@
+
+
+logging:
+  level:
+    bytewood.jmx: DEBUG
+
+settings:
+  id: 123456789
+  name: "Dynamic Settings"
+  flag: true
+  value: 3
