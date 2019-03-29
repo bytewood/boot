@@ -4,6 +4,12 @@ logging:
   level:
     bytewood.jmx: DEBUG
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 settings:
   id: 123456789
   name: "Dynamic Settings"

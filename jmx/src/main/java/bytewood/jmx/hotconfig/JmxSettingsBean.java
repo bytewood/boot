@@ -57,6 +57,6 @@ public class JmxSettingsBean implements IJmxSettings {
     @ManagedOperation(description = "Apply these attributes to bean that use them")
     @Override
     public void refresh(final int delayInSeconds) {
-        log.debug("refreshing...");
+        log.debug("refreshing in {} seconds", delayInSeconds);
     }
 }
