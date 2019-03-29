@@ -1,4 +1,7 @@
-# Bytewood JMX
+# Spring JMX Example
+
+- Spring jmx annotations expose an MBean.
+- Jolokia exposes the MBean via HTTP.
 
 ## To Run
 ```
@@ -13,7 +16,7 @@ https://jolokia.org/reference/html/protocol.html
 
 *How to manipulate MBeans using HTTP*
 
-##### HTTP GET list MBeansgit 
+##### HTTP GET list MBeans 
 curl http://localhost:8080/actuator/jolokia
 
 #### HTTP GET Read MBean Attribute

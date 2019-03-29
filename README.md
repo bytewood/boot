@@ -1,6 +1,6 @@
 # Bytewood Boot
 
-Samples of several technologies abstracted with spring and spring boot annotations.
+Examples of several technologies abstracted with spring and spring boot annotations.
 
 - jmx
 - scheduler TODO
